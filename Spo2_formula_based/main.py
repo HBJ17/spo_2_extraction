@@ -8,7 +8,7 @@ VIDEO_PATH = r"D:\Studies\ML\DATA\Video\2510138.mp4"
 if __name__ == "__main__":
 
     print()
-    print("  SpO2 Analyzer — Terminal Mode")
+    print("SpO2 Analyzer")
     print()
 
     print("\n[1/2] Extracting RGB signals from video...")
