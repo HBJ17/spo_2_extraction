@@ -11,10 +11,10 @@ if __name__ == "__main__":
     print("  SpO2 Analyzer — Terminal Mode")
     print()
 
-    print("\n[1/3] Extracting RGB signals from video...")
+    print("\n[1/2] Extracting RGB signals from video...")
     r_raw, g_raw, b_raw, fs = extract_signals(VIDEO_PATH)
 
-    print("\n[2/3] Computing SpO2...")
+    print("\n[2/2] Computing SpO2...")
     R, spo2, ac_r, dc_r, ac_g, dc_g = calculate_spo2(r_raw, g_raw, fs)
 
     print()
