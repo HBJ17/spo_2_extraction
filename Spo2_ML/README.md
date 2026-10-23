@@ -20,3 +20,13 @@ Videos are not stored in git.
 All benchmarks use 5-fold `GroupKFold` grouped by `subject_id`, which is the video file name. Folds therefore split by video. If one person recorded several videos, they can appear in both train and test folds.
 
 Benchmarks live on their own branches. See the `README.md` on `main` for the list.
+
+
+## Branch: `ml/hist-gradient-boosting`
+Benchmark: **Histogram Gradient Boosting Classifier**. See `RESULTS.md` for the accuracy and `benchmark_hist_gradient_boosting.py` to reproduce it.
+
+```bash
+cd Spo2_ML
+pip install -r requirements-ml.txt
+python benchmark_hist_gradient_boosting.py
+```
