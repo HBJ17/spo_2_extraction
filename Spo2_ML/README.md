@@ -20,3 +20,13 @@ Videos are not stored in git.
 All benchmarks use 5-fold `GroupKFold` grouped by `subject_id`, which is the video file name. Folds therefore split by video. If one person recorded several videos, they can appear in both train and test folds.
 
 Benchmarks live on their own branches. See the `README.md` on `main` for the list.
+
+
+## Branch: `ml/phase4-deep-rf-calibrated`
+Final production model: `train_model.py` (cross-validation comparison, then the deep Random Forest fit on all data), `predict.py` (SpO2 for one video) and the saved `best_spo2_model.pkl`. See `RESULTS.md`, including why the 99.25% figure is not a held-out score.
+
+```bash
+cd Spo2_ML
+pip install -r requirements-ml.txt
+python predict.py <path to video>
+```
