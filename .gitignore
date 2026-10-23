@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv*/
+venv/
+
+# videos and raw data are not stored in git
+DATA/
+*.mp4
+*.avi
+*.mov
