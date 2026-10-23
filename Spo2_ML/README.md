@@ -20,3 +20,13 @@ Videos are not stored in git.
 All benchmarks use 5-fold `GroupKFold` grouped by `subject_id`, which is the video file name. Folds therefore split by video. If one person recorded several videos, they can appear in both train and test folds.
 
 Benchmarks live on their own branches. See the `README.md` on `main` for the list.
+
+
+## Branch: `ml/phase2-window-level`
+Benchmark: **Phase 2: window-level Random Forest / SVR**. See `RESULTS.md` for the accuracy and `benchmark_phase2_window_level.py` to reproduce it.
+
+```bash
+cd Spo2_ML
+pip install -r requirements-ml.txt
+python benchmark_phase2_window_level.py
+```
