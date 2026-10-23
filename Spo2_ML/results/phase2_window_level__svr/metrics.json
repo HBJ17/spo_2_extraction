@@ -1,0 +1,19 @@
+{
+  "benchmark": "phase2_window_level__svr",
+  "status": "pending - run benchmark_phase2_window_level.py to measure",
+  "protocol": {
+    "cv": "GroupKFold(5) by subject_id",
+    "video_level_median": false,
+    "formula_feature": false
+  },
+  "metrics": {
+    "mae": null,
+    "r2": null,
+    "accuracy_within_2": null
+  },
+  "documented": {
+    "accuracy_percent": 83.0,
+    "source": "Project_Journey_Documentation.md, Phase 2 (stated as ~83%)",
+    "re_measured": false
+  }
+}
