@@ -20,3 +20,13 @@ Videos are not stored in git.
 All benchmarks use 5-fold `GroupKFold` grouped by `subject_id`, which is the video file name. Folds therefore split by video. If one person recorded several videos, they can appear in both train and test folds.
 
 Benchmarks live on their own branches. See the `README.md` on `main` for the list.
+
+
+## Branch: `ml/phase3-formula-injection-groupkfold`
+Benchmark: **Phase 3: video-level median + formula injection**. See `RESULTS.md` for the accuracy and `benchmark_phase3_formula_injection.py` to reproduce it.
+
+```bash
+cd Spo2_ML
+pip install -r requirements-ml.txt
+python benchmark_phase3_formula_injection.py
+```
